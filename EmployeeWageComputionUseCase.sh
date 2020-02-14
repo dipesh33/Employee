@@ -12,12 +12,8 @@ randomNumber=$((RANDOM%2))
 if [ $randomNumber -eq 	$isPresent ]
 then
 	echo "Employee Present"
-else
-	echo "Employee Absent"
-fi
-
-#TO FUNCTION CALCULATE EMPLOYEE WAGE
-function calculateDailyEmployeeWae(){
+  	#TO FUNCTION CALCULATE EMPLOYEE WAGE
+	function calculateDailyEmployeeWae(){
 	read -p "Assume Wage per hour is :" isWagePerHour "rupees"
    isDayHour=24
  	read -p "To full day hours is :" isFullDayHour
@@ -25,3 +21,7 @@ function calculateDailyEmployeeWae(){
 	echo "To calculate daily employee wage :" $calculateEmployeeWage "rupees"
 }
 calculateDailyEmployeeWae
+else
+   echo "Employee Absent"
+ fi
+
