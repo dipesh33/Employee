@@ -19,7 +19,7 @@ case "$caseChoce" in
 		#TO FUNCTION CALCULATE EMPLOYEE WAGE
 		function calculateDailyEmployeeWae(){
 		read -p "Assume Wage per hour is :" isWagePerHour "rupees"
-   	isDayHour=24
+		isDayHour=24
  		read -p "To full day hours is :" isFullDayHour
 		calculateEmployeeWage=$(( $isWagePerHour * $isFullDayHour ))
 		echo "To calculate daily employee wage :" $calculateEmployeeWage "rupees"
@@ -36,8 +36,8 @@ case "$caseChoce" in
 			}
 		partTimeEmployeeAndWage
 		;;
-   *)echo "No choice"
-      ;;
+		*)echo "No choice"
+		;;
 esac
 
 else
