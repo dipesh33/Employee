@@ -49,11 +49,11 @@ case "$caseChoice" in
 		}
 		partTimeEmployeeAndWageWorkHours
 		;;
-		*)echo "No choice"
+		*)echo "No choice."
 		;;
 esac
 
 else
-   echo "Employee Absent"
+   echo "Employee Absent."
  fi
 
