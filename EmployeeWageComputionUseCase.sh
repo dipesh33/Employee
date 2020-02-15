@@ -15,8 +15,7 @@ then
   	#TO FUNCTION PART TIME EMPLOYEE AND  WAGE
 	function partTimeEmployeeAndWage(){
 	read -p "Assume Wage per hour is :" isWagePerHour "rupees"
-	isDayHour=24
- 	read -p "To part time hour is :" isFullDayHour
+	read -p "To part time hour is :" isFullDayHour
 	calculatePartTimeEmployeeWage=$(( $isWagePerHour * $isFullDayHour ))
 	echo "To calculate part time employee and wage :" $calculatePartTimeEmployeeWage "rupees"
 }
