@@ -39,12 +39,12 @@ case "$caseChoice" in
 		isDayHour=24
 
 		#TO ONE DAY WORKING EMPLOYEE WAGE
-      calculateEmployeeWageForOneDay=$(( $isWagePerHour * $isDayHour ))
-      read -p "TO part time working days :" isDay
+		calculateEmployeeWageForOneDay=$(( $isWagePerHour * $isDayHour ))
+		read -p "TO part time working days :" isDay
 
 		#TO MONTH DAY WORKING EMPLOYEE WAGE
 		calculateEmployeeWageForMonth=$(( $calculateEmployeeWageForOneDay * $isDay ))
-      echo "To calculate employee part time wages for a Month :" $calculateEmployeeWageForMonth "rupees"
+		echo "To calculate employee part time wages for a Month :" $calculateEmployeeWageForMonth "rupees"
 		}
 		partTimeEmployeeAndWage
 		;;
