@@ -17,11 +17,11 @@ else
 fi
 
 #TO FUNCTION CALCULATE EMPLOYEE WAGE
-function calculateDailyEmployeeWae(){
+function calculateDailyEmployeeWage(){
 	read -p "Assume Wage per hour is :" isWagePerHour "rupees"
 	isDayHour=24
  	read -p "To full day hours is :" isFullDayHour
 	calculateEmployeeWage=$(( $isWagePerHour * $isFullDayHour ))
 	echo "To calculate daily employee wage :" $calculateEmployeeWage "rupees"
 }
-calculateDailyEmployeeWae
+calculateDailyEmployeeWage
