@@ -20,7 +20,7 @@ case "$caseChoice" in
 		#TO FUNCTION CALCULATE EMPLOYEE WAGE
 		function calculateDailyEmployeeWage(){
 		read -p "Assume Wage per hour is :" isWagePerHour "rupees"
-		isDayHour=24
+		isDayHour=8
 
 		#TO ONE DAY WORKING EMPLOYEE WAGE
 		calculateEmployeeWageForOneDay=$(( $isWagePerHour * $isDayHour ))
@@ -36,7 +36,7 @@ case "$caseChoice" in
 		#TO FUNCTION CALCULATE PART TIME EMPLOYEE WAGE
 		function partTimeEmployeeAndWage(){
 		read -p "Assume Wage per hour is :" isWagePerHour "rupees"
-		isDayHour=24
+		isDayHour=8
 
 		#TO ONE DAY WORKING EMPLOYEE WAGE
 		calculateEmployeeWageForOneDay=$(( $isWagePerHour * $isDayHour ))
