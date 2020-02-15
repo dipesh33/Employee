@@ -18,7 +18,7 @@ case "$caseChoice" in
 	0) echo "To calculate Daily Employee Wage"
 
 		#TO FUNCTION CALCULATE EMPLOYEE WAGE
-		function calculateDailyEmployeeWage(){
+		function calculateDailyEmployeeWageWorkHours(){
 		read -p "Assume Wage per hour is :" isWagePerHour "rupees"
 		isDayHour=8
 
@@ -29,12 +29,13 @@ case "$caseChoice" in
 		calculateEmployeeWageForMonth=$(( $calculateEmployeeWageForOneDay  *  $isDay ))
 		echo "To calculate employee wages for a Month :" $calculateEmployeeWageForMonth "rupees"
 		}
-		calculateDailyEmployeeWage
+		#TO FUNCTION CALL
+		calculateDailyEmployeeWageWorkHours
 		;;
 	1)echo "To calculate part time Employee and wage"
 
 		#TO FUNCTION CALCULATE PART TIME EMPLOYEE WAGE
-		function partTimeEmployeeAndWage(){
+		function partTimeEmployeeAndWageWorkHours(){
 		read -p "Assume Wage per hour is :" isWagePerHour "rupees"
 		isDayHour=8
 
@@ -46,7 +47,7 @@ case "$caseChoice" in
 		calculateEmployeeWageForMonth=$(( $calculateEmployeeWageForOneDay * $isDay ))
 		echo "To calculate employee part time wages for a Month :" $calculateEmployeeWageForMonth "rupees"
 		}
-		partTimeEmployeeAndWage
+		partTimeEmployeeAndWageWorkHours
 		;;
 		*)echo "No choice"
 		;;
