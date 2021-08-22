@@ -1,6 +1,4 @@
-#!/bin/bash -x
-
-echo "-------------------------------------------- Welcome To Employee Wage Compution -------------------------------------------------------"
+#!/bin/bash 
 
 #INITIAL VALUE TO ASSING PRESENT
 isPresent=1
