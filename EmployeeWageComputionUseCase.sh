@@ -1,6 +1,4 @@
-#!/bin/bash -x
-
-echo "-------------------------------------------- Welcome To Employee Wage Compution -------------------------------------------------------"
+#!/bin/bash 
 
 #CONSTANT
 WAGE_PER_HOUR=20
